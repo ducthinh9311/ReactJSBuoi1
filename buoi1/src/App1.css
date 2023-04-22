@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.game{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+.boxGame{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
