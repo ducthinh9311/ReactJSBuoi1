@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.studentList{
+   background: #e77f67;
+   width: 500px;
+   margin: 50px auto;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 20px 0%;
+}
+.student{
+    font-size: 22px;
+    color: #1B1464;
+    margin-left: 30px;
+}
+.studentList .student{
+    padding: 10px;  
+    
+}
+.studentList .student span{
+    display: inline-block;
+    width: 85%;
+    border-bottom: 1px solid #1B1464;
+}
+.studentList .title{
+    text-align: center;
+    color: #1B1464;
+    /* margin-top: 20px; */
+    
+}
+.title{
+    padding-top: 15px;
+}
+.formAdd input{
+    display: flex;
+    padding: 10px;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
