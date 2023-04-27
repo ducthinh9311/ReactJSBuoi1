@@ -41,3 +41,16 @@
     border: none;
     border-radius: 10px;
 }
+.studentList .student span.complete{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.editForm{
+    margin:10px 0px 0px 38px;
+}
+.editForm input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
