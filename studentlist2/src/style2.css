@@ -23,6 +23,7 @@
     display: inline-block;
     width: 85%;
     border-bottom: 1px solid #1B1464;
+    padding-left: 5px;
 }
 .studentList .title{
     text-align: center;
@@ -41,10 +42,10 @@
     border: none;
     border-radius: 10px;
 }
-.studentList .student span.complete{
+/* .studentList .student span.complete{
     text-decoration: line-through;
     cursor: pointer;
-}
+} */
 .editForm{
     margin:10px 0px 0px 38px;
 }
@@ -53,4 +54,13 @@
     border-radius: 5px;
     outline: none;
     border: none;
+}
+.footer{
+    padding-left: 25px;
+}
+.footer button{
+    padding:5px 15px;
+    border-radius: 5px;
+    border:1px solid #1B1464;
+    margin-left: 3px;
 }
