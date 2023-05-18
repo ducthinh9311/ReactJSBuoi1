@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactJSBuoi1.git/static/css/main.be083de5.css",
-    "main.js": "/ReactJSBuoi1.git/static/js/main.2d34c046.js",
-    "index.html": "/ReactJSBuoi1.git/index.html",
-    "main.be083de5.css.map": "/ReactJSBuoi1.git/static/css/main.be083de5.css.map",
-    "main.2d34c046.js.map": "/ReactJSBuoi1.git/static/js/main.2d34c046.js.map"
+    "main.css": "/ReactJSBuoi1/static/css/main.be083de5.css",
+    "main.js": "/ReactJSBuoi1/static/js/main.2d34c046.js",
+    "index.html": "/ReactJSBuoi1/index.html",
+    "main.be083de5.css.map": "/ReactJSBuoi1/static/css/main.be083de5.css.map",
+    "main.2d34c046.js.map": "/ReactJSBuoi1/static/js/main.2d34c046.js.map"
   },
   "entrypoints": [
     "static/css/main.be083de5.css",
