@@ -1,0 +1,22 @@
+body {
+  background: #000;
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .movie_list .list_cards {
+  display: flex;
+  justify-content: space-around;
+} */
+.list_cards a {
+  /* width: 200px; */
+  /* display: block; */
+}
+/* .movie_list {
+  width: 90%;
+} */

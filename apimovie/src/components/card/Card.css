@@ -1,0 +1,17 @@
+
+.cards{
+    display: inline-block;
+    color:#fff;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+}
+#LinkCards{
+    width: calc(70% / 4);
+}
+.cards_image{
+   
+    /* width: 200px; */
+    width:100%;
+}
+
