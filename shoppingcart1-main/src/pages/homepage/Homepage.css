@@ -1,0 +1,28 @@
+.products__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  width: 80%;
+  margin: 70px auto 0;
+  gap: 12px;
+}
+
+.icon__card {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+.number__card {
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  border-radius: 70%;
+  background-color: red;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  padding: 6px;
+  text-align: center;
+}

@@ -5,9 +5,14 @@ import Home from "./page/home/Home";
 import MovieDetail from "./page/moviedetail/MovieDetail";
 import MovieList from "./components/MovieList/MovieList";
 import "./App.css"
+import { AppProvider } from "./AppContext";
+import Movie from "./components/Movie";
 export default function App() {
   return (
     <div className="App">
+       <AppProvider>
+        <Movie/>
+      </AppProvider>
       <Header/>
       <Routes>
         <Route path="/*" element={<Home/>}></Route>
