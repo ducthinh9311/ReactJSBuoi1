@@ -1,0 +1,64 @@
+.list_container {
+  margin: 40px;
+  /* padding: 30px; */
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card_1 {
+  margin: 0 50px 0 50px;
+}
+.card_1.card {
+  --mdb-card-spacer-y: none;
+  --mdb-card-box-shadow: none;
+}
+.card {
+  border: none;
+}
+.card-body {
+  text-align: center;
+  width: 100%;
+}
+.card-img-top {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+.card-img-top.card_circle:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-group > .card:not(:last-child) .card-img-top,
+.card-group > .card:not(:last-child) .card-header {
+  border-top-right-radius: 0;
+}
+.card-group > .card:not(:last-child) .card-header,
+.card-group > .card:not(:last-child) .card-img-top {
+  border-top-right-radius: 50%;
+}
+.card-group > .card:not(:first-child) .card-header,
+.card-group > .card:not(:first-child) .card-img-top {
+  border-top-left-radius: 50%;
+}
+.card-img,
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.card-img-top.card_circle {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.card-group {
+  width: 70%;
+}
+.card-footer{
+  background-color: transparent;
+  padding:0;
+}

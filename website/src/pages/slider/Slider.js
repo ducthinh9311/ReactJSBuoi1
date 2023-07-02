@@ -24,7 +24,15 @@ export default class SimpleSlider extends Component {
                 <button>SHOP NOW</button>
               </Link>
             </div>
-            <img src={banner} />
+            <img src={banner3} alt="#" />
+          </div>
+          <div>
+            <div className="btn_2-banner2">
+              <Link to="/bestsellers">
+                <button>SHOP NOW</button>
+              </Link>
+            </div>
+            <img src={banner} alt="#" />
           </div>
           <div>
             <div className="btn_2">
@@ -32,15 +40,7 @@ export default class SimpleSlider extends Component {
                 <button>SHOP NOW</button>
               </Link>
             </div>
-            <img src={banner2} />
-          </div>
-          <div>
-            <div className="btn_2">
-              <Link to="/bestsellers">
-                <button>SHOP NOW</button>
-              </Link>
-            </div>
-            <img src={banner3} />
+            <img src={banner2} alt="#" />
           </div>
         </Slider>
       </div>

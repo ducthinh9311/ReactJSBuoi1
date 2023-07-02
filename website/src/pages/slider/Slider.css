@@ -32,4 +32,28 @@
   padding: 10px;
   border: none;
   border-radius: 10px;
+  background: #00d2d3;
+  color: #fff;
+  font-family: "Geologica", sans-serif;
+  transition: 1s;
+}
+.btn_2 button:hover {
+  border-radius: 30px;
+  background: #fd9644;
+}
+.btn_2-banner2 button {
+  margin: 350px 0 0 400px;
+  position: absolute;
+  display: flex;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #00d2d3;
+  color: #fff;
+  font-family: "Geologica", sans-serif;
+  transition: 1s;
+}
+.btn_2-banner2 button:hover {
+  border-radius: 30px;
+  background: #fd9644;
 }

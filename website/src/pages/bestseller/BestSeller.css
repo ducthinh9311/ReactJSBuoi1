@@ -1,0 +1,16 @@
+.newarrival_product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .newarrival_product .new{
+    display: flex;
+    width:calc(100% / 4);
+    
+  }
+  @media (max-width: 576px){
+    .new.card-group{
+        display: block;
+        width: 100%;
+    }
+  }
